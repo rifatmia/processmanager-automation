@@ -1,0 +1,38 @@
+{
+  "default_icon": "default_icon.png",
+  "devtools_port": 9515,
+  "lrsUrl": "https://lrs-prem.openfin.co",
+  "websocket_port": 9696,
+  "startup_app": {
+    "name": "process-manager",
+    "version": "1.4.1",
+    "description": "Process Manager",
+    "url": "https://cdn.openfin.co/process-manager/",
+    "uuid": "process-manager",
+    "defaultHeight": 1800,
+    "defaultWidth": 1800,
+    "applicationIcon": "https://cdn.openfin.co/demos/process-manager2/img/proc-mgr-icon.png",
+    "saveWindowState": false,
+    "company": "OpenFin",
+    "autoShow": true,
+    "logManagement": {
+      "enabled": true
+    }
+  },
+  "runtime": {
+    "arguments": "v=1",
+    "version9": "9.61.38.45",
+    "version10": "10.66.41.17",
+    "version11": "11.69.42.29",
+    "version12": "12.69.43.22",
+    "version13": "13.76.45.14",
+    "version": "canary"
+  },
+  "splashScreenImage": "https://cdn.openfin.co/demos/process-manager2/img/proc-mgr-splash.png",
+  "shortcut": {
+    "company": "OpenFin",
+    "description": "Local OpenFin Process Manager",
+    "icon": "https://cdn.openfin.co/demos/process-manager2/img/proc-mgr-icon.ico",
+    "name": "Local Demo | Process Manager"
+  }
+}
